@@ -168,7 +168,7 @@ p2<<"update nonvipperson set coins=coins+10 where(name,id)=('"+name+"','"+id+"')
     _getch();
     invoice(conn,name,carnum,id,dis,charges,sts);
 }
-
+}
 void  invoice(MYSQL *conn,string name,string carnum,string id,int discount,int cost,int sts)
 { char ch;gotoxy(30,6);
 system("CLS");
